@@ -75,37 +75,6 @@ const AboutSection = () => {
             ))}
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            {
-              icon: Scale,
-              title: "Justice & Equality",
-              desc: "Committed to ensuring every woman has equal access to justice and legal protection under the law.",
-            },
-            {
-              icon: Heart,
-              title: "Compassion & Strength",
-              desc: "Combining empathy with fierce determination — because caring deeply and fighting hard aren't contradictions.",
-            },
-            {
-              icon: BookOpen,
-              title: "Knowledge & Empowerment",
-              desc: "Education is liberation. Every law I learn becomes a weapon against injustice.",
-            },
-          ].map((item, i) => (
-            <ScrollReveal key={i} delay={i * 0.15}>
-              <div className="flex flex-col items-center text-center gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-gold transition-all duration-500 group">
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <item.icon className="w-6 h-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="font-display font-semibold text-lg mb-1">{item.title}</h3>
-                  <p className="text-muted-foreground font-body text-sm leading-relaxed">{item.desc}</p>
-                </div>
-              </div>
-            </ScrollReveal>
-          ))}
-        </div>
       </div>
     </section>
   );
