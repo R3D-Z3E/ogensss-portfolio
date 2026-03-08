@@ -72,6 +72,7 @@ const AboutSection = () => {
             </ScrollReveal>
           ))}
         </div>
+      </div>
     </section>
   );
 };
