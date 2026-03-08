@@ -27,13 +27,13 @@ const AboutSection = () => {
           <ScrollReveal direction="left">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
-                I believe that <strong className="text-foreground">justice isn't a privilege — it's a right.</strong> As a 
+                I believe that <strong className="text-foreground">justice isn't a privilege, it's a right.</strong> As a 
                 student of law, every case I study, every argument I craft, is driven by an unwavering 
                 commitment to equality and fairness.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
                 My passion for <strong className="text-foreground">women's rights and feminist advocacy</strong> isn't 
-                just academic — it's personal. I've seen how the law can be a tool for liberation, 
+                just academic, it's personal. I've seen how the law can be a tool for liberation, 
                 and I'm determined to wield it for those who need it most.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
