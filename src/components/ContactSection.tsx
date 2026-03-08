@@ -18,28 +18,29 @@ const ContactSection = () => {
           </p>
         </ScrollReveal>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-          {[
-            { icon: Mail, label: "Email", value: "jerryaira08@gmail.com", href: "mailto:jerryaira08@gmail.com" },
-            { icon: Linkedin, label: "LinkedIn", value: "Connect with me", href: "https://www.linkedin.com/in/ogenemene-jerry-a0221a2b7/" },
-            { icon: Instagram, label: "Instagram", value: "@o_g_e_n_s", href: "https://www.instagram.com/o_g_e_n_s/" },
-          ].map((item, i) => (
-            <ScrollReveal key={i} delay={i * 0.12}>
-              <a
-                href={item.href}
-                className="flex items-center gap-4 px-6 py-4 rounded-xl bg-background border border-border hover:border-primary/40 hover:shadow-gold transition-all duration-500 group"
-              >
-                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                  <item.icon className="w-5 h-5 text-primary" />
-                </div>
-                <div className="text-left">
-                  <p className="text-xs text-muted-foreground font-body">{item.label}</p>
-                  <p className="font-body font-medium text-foreground">{item.value}</p>
-                </div>
-              </a>
-            </ScrollReveal>
-          ))}
-        </div>
+        <ScrollReveal delay={0.1}>
+          <div className="flex flex-col items-center mb-16">
+            <p className="text-lg font-body text-muted-foreground mb-6">Connect with me</p>
+            <div className="flex gap-4">
+              {[
+                { icon: Mail, label: "Email", href: "mailto:jerryaira08@gmail.com" },
+                { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/ogenemene-jerry-a0221a2b7/" },
+                { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/o_g_e_n_s/" },
+              ].map((item, i) => (
+                <a
+                  key={i}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary/20 hover:shadow-gold transition-all duration-300 group"
+                  aria-label={item.label}
+                >
+                  <item.icon className="w-5 h-5 text-primary group-hover:scale-110 transition-transform" />
+                </a>
+              ))}
+            </div>
+          </div>
+        </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
           <div className="pt-12 border-t border-border">

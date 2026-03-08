@@ -11,40 +11,36 @@ const AboutSection = () => {
             <span className="text-sm font-body font-semibold tracking-[0.3em] uppercase text-primary">
               About Me
             </span>
-            <h2 className="text-4xl md:text-5xl font-display font-bold mt-4 mb-6">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mt-4 mb-8">
               A Voice for the <span className="italic text-gradient-gold">Voiceless</span>
             </h2>
-            <div className="w-16 h-0.5 bg-primary mx-auto" />
+            <div className="w-16 h-0.5 bg-primary mx-auto mb-10" />
+            <img
+              src={airaPhoto}
+              alt="Aira — student lawyer and feminist advocate"
+              className="w-52 h-52 rounded-2xl object-cover shadow-gold border-2 border-primary/20 mx-auto"
+            />
           </div>
         </ScrollReveal>
 
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <ScrollReveal direction="left">
-            <div className="space-y-6">
-              <div className="mb-6">
-                <img
-                  src={airaPhoto}
-                  alt="Aira — student lawyer and feminist advocate"
-                  className="w-48 h-48 rounded-2xl object-cover shadow-gold border-2 border-primary/20"
-                />
-              </div>
-              <p className="text-lg leading-relaxed text-muted-foreground font-body">
-                I believe that <strong className="text-foreground">justice isn't a privilege — it's a right.</strong> As a 
-                student of law, every case I study, every argument I craft, is driven by an unwavering 
-                commitment to equality and fairness.
-              </p>
-              <p className="text-lg leading-relaxed text-muted-foreground font-body">
-                My passion for <strong className="text-foreground">women's rights and feminist advocacy</strong> isn't 
-                just academic — it's personal. I've seen how the law can be a tool for liberation, 
-                and I'm determined to wield it for those who need it most.
-              </p>
-              <p className="text-lg leading-relaxed text-muted-foreground font-body">
-                Like the tulip that pushes through the cold earth every spring, I believe in the 
-                power of <strong className="text-foreground">resilience, growth, and beauty born from struggle.</strong>
-              </p>
-            </div>
-          </ScrollReveal>
-
+        <ScrollReveal>
+          <div className="max-w-3xl mx-auto space-y-6 text-center mb-16">
+            <p className="text-lg leading-relaxed text-muted-foreground font-body">
+              I believe that <strong className="text-foreground">justice isn't a privilege — it's a right.</strong> As a 
+              student of law, every case I study, every argument I craft, is driven by an unwavering 
+              commitment to equality and fairness.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground font-body">
+              My passion for <strong className="text-foreground">women's rights and feminist advocacy</strong> isn't 
+              just academic — it's personal. I've seen how the law can be a tool for liberation, 
+              and I'm determined to wield it for those who need it most.
+            </p>
+            <p className="text-lg leading-relaxed text-muted-foreground font-body">
+              Like the tulip that pushes through the cold earth every spring, I believe in the 
+              power of <strong className="text-foreground">resilience, growth, and beauty born from struggle.</strong>
+            </p>
+          </div>
+        </ScrollReveal>
           <div className="space-y-6">
             {[
               {
