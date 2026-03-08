@@ -1,5 +1,6 @@
 import { Scale, Heart, BookOpen } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
+import airaPhoto from "@/assets/aira-photo.png";
 
 const AboutSection = () => {
   return (
