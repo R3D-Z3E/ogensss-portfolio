@@ -33,7 +33,7 @@ const AboutSection = () => {
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
                 My passion for <strong className="text-foreground">women's rights and feminist advocacy</strong> isn't 
-                just academic — it's personal. I've seen how the law can be a tool for liberation, 
+                just academic, it's personal. I've seen how the law can be a tool for liberation, 
                 and I'm determined to wield it for those who need it most.
               </p>
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
