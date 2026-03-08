@@ -20,9 +20,9 @@ const ContactSection = () => {
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
           {[
-            { icon: Mail, label: "Email", value: "hello@example.com", href: "mailto:hello@example.com" },
-            { icon: Linkedin, label: "LinkedIn", value: "Connect with me", href: "#" },
-            { icon: Instagram, label: "Instagram", value: "@advocacy", href: "#" },
+            { icon: Mail, label: "Email", value: "jerryaira08@gmail.com", href: "mailto:jerryaira08@gmail.com" },
+            { icon: Linkedin, label: "LinkedIn", value: "Connect with me", href: "https://www.linkedin.com/in/ogenemene-jerry-a0221a2b7/" },
+            { icon: Instagram, label: "Instagram", value: "@o_g_e_n_s", href: "https://www.instagram.com/o_g_e_n_s/" },
           ].map((item, i) => (
             <ScrollReveal key={i} delay={i * 0.12}>
               <a

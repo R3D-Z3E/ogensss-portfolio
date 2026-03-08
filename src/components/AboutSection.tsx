@@ -1,5 +1,6 @@
 import { Scale, Heart, BookOpen } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
+import airaPhoto from "@/assets/aira-photo.png";
 
 const AboutSection = () => {
   return (
@@ -20,6 +21,13 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <ScrollReveal direction="left">
             <div className="space-y-6">
+              <div className="mb-6">
+                <img
+                  src={airaPhoto}
+                  alt="Aira — student lawyer and feminist advocate"
+                  className="w-48 h-48 rounded-2xl object-cover shadow-gold border-2 border-primary/20"
+                />
+              </div>
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
                 I believe that <strong className="text-foreground">justice isn't a privilege — it's a right.</strong> As a 
                 student of law, every case I study, every argument I craft, is driven by an unwavering 
