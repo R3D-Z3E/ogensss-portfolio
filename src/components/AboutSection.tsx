@@ -27,7 +27,7 @@ const AboutSection = () => {
           <ScrollReveal direction="left">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground font-body">
-                I believe that <strong className="text-foreground">justice isn't a privilege — it's a right.</strong> As a 
+                I believe that <strong className="text-foreground">justice isn't a privilege, it's a right.</strong> As a 
                 student of law, every case I study, every argument I craft, is driven by an unwavering 
                 commitment to equality and fairness.
               </p>
