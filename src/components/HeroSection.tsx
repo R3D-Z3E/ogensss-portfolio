@@ -25,9 +25,9 @@ const HeroSection = () => {
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold tracking-tight mb-6 opacity-0 animate-fade-up">
-          Fighting for
+          Aira
           <span className="block text-gradient-gold italic mt-2">
-            What Is Right
+            Fighting for What Is Right
           </span>
         </h1>
 
