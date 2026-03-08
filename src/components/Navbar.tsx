@@ -28,7 +28,9 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
           <img src={justiceIcon} alt="Logo" className="w-8 h-8" />
-          <span className="font-display font-bold text-lg hidden sm:inline">Aira</span>
+          <span className="font-display font-bold text-lg hidden sm:inline">
+            Aira<span className="text-primary animate-pulse">aaa</span>
+          </span>
         </a>
 
         <div className="flex items-center gap-6">
